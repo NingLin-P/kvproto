@@ -75,6 +75,7 @@ message RaftApplyState {
     uint64 last_commit_index = 3;
     uint64 commit_index = 4;
     uint64 commit_term = 5;
+    uint64 applied_ts = 6;
     RaftTruncatedState truncated_state = 2;
 }
 
